@@ -1,0 +1,65 @@
+/* styling headings */
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: none;
+}
+
+h4{
+    opacity: calc(70%);
+    font-size: large;
+}
+
+h2{
+    background-color: rgb(206, 176, 176);
+    font-size: xx-large;
+}
+
+h3{
+    font-size: x-large;
+}
+
+h5{
+font-size: large;
+opacity: 80%;
+display: flex;
+flex-direction: row;
+}
+
+h6{
+align-self: flex-end;
+}
+
+
+/* styling cv-container */
+.cv-container{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.left-column{
+width: 26%;
+background-color: rgb(69, 22, 22);
+color: white;
+padding: 5px;
+}
+
+.right-column{
+    width: 80%;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+ /* portfolio styling */
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: darkbrown;
+}
+.portfolio img{
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+}

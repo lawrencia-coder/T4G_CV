@@ -1,0 +1,23 @@
+/* working on my headings */
+h1{
+    text-align: center;
+    
+}
+.cv-container{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.left-column{
+width: 30%;
+background-color: rgb(35, 2, 2);
+color: white;
+padding: 20px;
+}
+
+.right-column{
+    width: 70%;
+    background-color: white;
+    
+}
